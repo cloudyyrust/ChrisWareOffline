@@ -1,0 +1,221 @@
+# Squadron 42 outfits for the gear menu. Each [name] is one outfit, then one
+# "<port> <item>" line per piece. Clothing ports: Clothing_Torso_0 (shirt),
+# Clothing_Torso_1 (jacket or jumpsuit), Clothing_Torso2 (belt, over the
+# jumpsuit), Clothing_Legs, Clothing_Feet, Clothing_Hands, Hat_ItemPort.
+# Armor ports: Armor_Undersuit, Armor_Helmet, Armor_Torso, Armor_Arms, Armor_Legs.
+# Face: Head_ItemPort (a cast member's head), Hair_ItemPort, Hair_Color,
+# Eyebrow_ItemPort, Teeth_ItemPort, Eyes_ItemPort, Head_Accessory_ItemPort,
+# Head_Horn_ItemPort, Jewellery_ItemPort, Body_ItemPort (body_01 by default).
+
+[Become Eckhart]
+Body_ItemPort m_body_01
+Head_ItemPort eckhart_t2_head
+Eyebrow_ItemPort PU_Head_Eyebrow
+Hair_ItemPort hair_02
+Hair_Color Hair_Var_Brown
+Clothing_Torso_0 sc_marine_bdu_shirt_01_01_eckhart
+Clothing_Torso_1 alb_jacket_01_01_01
+Clothing_Legs sc_marine_bdu_pants_01_01_eckhart
+Clothing_Feet sc_marine_bdu_boots_01_01_01
+
+[Become Eckhart (fatigues only)]
+Body_ItemPort m_body_01
+Head_ItemPort eckhart_t2_head
+Eyebrow_ItemPort PU_Head_Eyebrow
+Hair_ItemPort hair_02
+Hair_Color Hair_Var_Brown
+Clothing_Torso_0 sc_marine_bdu_shirt_01_01_eckhart
+Clothing_Legs sc_marine_bdu_pants_01_01_eckhart
+Clothing_Feet sc_marine_bdu_boots_01_01_01
+
+[Become Ruto]
+Body_ItemPort m_body_01
+Head_ItemPort ruto_t1_head
+Hair_ItemPort ruto_t1_hair
+Clothing_Torso_1 ruto_nvy_bridgeofficer_jacket_01
+Clothing_Legs sc_nvy_bridgeofficer_pants_01_01_01
+Clothing_Feet sc_nvy_bridgeofficer_boots_01_01_01
+
+[Become Ruto (Imperator head)]
+Body_ItemPort m_body_01
+Head_ItemPort ruto_t1_imperator_head
+Hair_ItemPort ruto_t1_hair
+Clothing_Torso_1 ruto_nvy_bridgeofficer_jacket_01
+Clothing_Legs sc_nvy_bridgeofficer_pants_01_01_01
+Clothing_Feet sc_nvy_bridgeofficer_boots_01_01_01
+
+[Become Vanduul (experimental)]
+Body_ItemPort vanduul_drone_body_01
+Head_ItemPort vanduul_drone_head_01
+Teeth_ItemPort vanduul_drone_teeth_01
+Eyes_ItemPort vanduul_drone_eyes_01
+Hair_ItemPort vanduul_drone_hair_01
+Head_Accessory_ItemPort vanduul_drone_skull_cap_01
+Head_Horn_ItemPort vanduul_drone_horns_01
+
+[Become Vanduul pilot (experimental)]
+Body_ItemPort vanduul_drone_body_01
+Head_ItemPort vanduul_drone_head_01
+Teeth_ItemPort vanduul_drone_teeth_01
+Eyes_ItemPort vanduul_drone_eyes_01
+Head_Accessory_ItemPort vanduul_drone_skull_cap_01
+Armor_Undersuit vanduul_drone_undersuit_01
+Armor_Torso vanduul_pilot_core_01_01_01
+Armor_Arms vanduul_pilot_arms_01_01_01
+Armor_Legs vanduul_pilot_legs_01_01_01
+Armor_Helmet vanduul_pilot_helmet_02_01_01
+
+[Become Vanduul Thul (experimental)]
+Body_ItemPort vanduul_drone_body_01
+Head_ItemPort vanduul_drone_head_01
+Teeth_ItemPort vanduul_drone_teeth_01
+Eyes_ItemPort vanduul_drone_eyes_01
+Hair_ItemPort vanduul_drone_hair_01
+Head_Accessory_ItemPort vanduul_drone_skull_cap_01
+Head_Horn_ItemPort vanduul_drone_horns_01
+Armor_Undersuit vanduul_drone_undersuit_01
+Armor_Torso vanduul_thul_core_01_01_01
+Armor_Legs vanduul_thul_legs_01_01_01
+
+[Navy pilot flight suit]
+Armor_Undersuit nvs_pilot_flightsuit_01_01_01
+Armor_Helmet nvs_pilot_flightsuit_helmet_01_01_01
+
+[Navy pilot flight suit 2]
+Armor_Undersuit nvs_pilot_flightsuit_01_01_02
+Armor_Helmet nvs_pilot_flightsuit_helmet_01_01_02
+
+[Navy pilot flight suit 3]
+Armor_Undersuit nvs_pilot_flightsuit_01_01_03
+Armor_Helmet nvs_pilot_flightsuit_helmet_01_01_03
+
+[Navy pilot flight suit 4]
+Armor_Undersuit nvs_pilot_flightsuit_01_01_04
+Armor_Helmet nvs_pilot_flightsuit_helmet_01_01_04
+
+[Navy pilot light armor]
+Armor_Undersuit nvy_pilot_undersuit_01_01_01
+Armor_Torso sc_nvy_pilot_light_core_01_01_01
+Armor_Helmet sc_nvy_pilot_light_helmet_01_01_01
+
+[Navy pilot light armor 2]
+Armor_Undersuit nvy_pilot_undersuit_01_01_01
+Armor_Torso sc_nvy_pilot_light_core_01_01_02
+Armor_Helmet sc_nvy_pilot_light_helmet_01_01_opaque
+
+[Navy pilot Fleet Week]
+Armor_Undersuit nvy_pilot_undersuit_01_01_01
+Armor_Torso sc_nvy_pilot_light_core_01_01_01
+Armor_Helmet sc_nvy_pilot_light_helmet_01_01_fleetweek
+
+[Navy gunner]
+Armor_Undersuit nvy_pilot_undersuit_01_01_01
+Armor_Torso sc_nvy_pilot_light_core_01_01_02
+Armor_Helmet sc_nvy_gunner_helmet_01_01_01
+
+[Navy gunner jumpsuit]
+Clothing_Torso_1 sc_nvy_bdu_jumpsuit_01_01_gunner
+Clothing_Torso2 sc_nvy_bdu_engineer_belt_01_01_01
+Clothing_Feet sc_nvy_bdu_boots_01_01_01
+
+[Marine fatigues]
+Clothing_Torso_0 sc_marine_bdu_shirt_01_01_01
+Clothing_Legs sc_marine_bdu_pants_01_01_01
+Clothing_Feet sc_marine_bdu_boots_01_01_01
+Clothing_Hands sc_marine_bdu_gloves_01_01_01
+
+[Marine fatigues (Eckhart)]
+Clothing_Torso_0 sc_marine_bdu_shirt_01_01_eckhart
+Clothing_Legs sc_marine_bdu_pants_01_01_eckhart
+Clothing_Feet sc_marine_bdu_boots_01_01_01
+
+[Marine fatigues 2]
+Clothing_Torso_1 sc_marine_bdu_shirt_02_01_01
+Clothing_Legs sc_marine_bdu_pants_01_01_01
+Clothing_Feet sc_marine_bdu_boots_01_01_01
+Clothing_Hands sc_marine_bdu_gloves_01_01_12
+
+[Marine fatigues 3]
+Clothing_Torso_1 sc_marine_bdu_shirt_02_01_11
+Clothing_Legs sc_marine_bdu_pants_01_01_01
+Clothing_Feet sc_marine_bdu_boots_01_01_01
+
+[Commodore]
+Clothing_Torso_1 sc_nvy_bridgeofficer_captain_jacket_01_01_01
+Clothing_Legs sc_nvy_bridgeofficer_pants_01_01_01
+Clothing_Feet sc_nvy_bridgeofficer_boots_01_01_01
+Hat_ItemPort sc_nvy_commodore_bridgeofficer_hat_01_01_01
+
+[Bridge captain]
+Clothing_Torso_1 sc_nvy_bridgeofficer_captain_jacket_01_01_01
+Clothing_Legs sc_nvy_bridgeofficer_pants_01_01_01
+Clothing_Feet sc_nvy_bridgeofficer_boots_01_01_01
+
+[Bridge commander]
+Clothing_Torso_1 sc_nvy_bridgeofficer_commander_jacket_01_01_01
+Clothing_Legs sc_nvy_bridgeofficer_pants_01_01_01
+Clothing_Feet sc_nvy_bridgeofficer_boots_01_01_01
+
+[Bridge lieutenant]
+Clothing_Torso_1 sc_nvy_bridgeofficer_lieutenant_jacket_01_01_01
+Clothing_Legs sc_nvy_bridgeofficer_pants_01_01_01
+Clothing_Feet sc_nvy_bridgeofficer_boots_01_01_01
+
+[Bridge officer (Ruto)]
+Clothing_Torso_1 ruto_nvy_bridgeofficer_jacket_01
+Clothing_Legs sc_nvy_bridgeofficer_pants_01_01_01
+Clothing_Feet sc_nvy_bridgeofficer_boots_01_01_01
+
+[Deck crew]
+Clothing_Torso_1 sc_nvy_bdu_jumpsuit_01_01_11
+Clothing_Torso2 sc_nvy_deckcrew_uniform_01_01_01
+Clothing_Hands sc_nvy_deckcrew_gloves_01_01_01
+Clothing_Feet sc_nvy_bdu_boots_01_01_01
+Hat_ItemPort sc_nvy_deckcrew_helmet_01_01_01
+
+[Deck crew 2]
+Clothing_Torso_1 sc_nvy_bdu_jumpsuit_02_01_11
+Clothing_Torso2 sc_nvy_deckcrew_uniform_01_01_04
+Clothing_Hands sc_nvy_deckcrew_gloves_01_01_04
+Clothing_Feet sc_nvy_bdu_boots_01_01_01
+Hat_ItemPort sc_nvy_deckcrew_nogoggles_helmet_01_01_04
+
+[Navy jumpsuit]
+Clothing_Torso_1 sc_nvy_bdu_jumpsuit_01_01_01
+Clothing_Torso2 sc_nvy_bdu_engineer_belt_01_01_01
+Clothing_Feet sc_nvy_bdu_boots_01_01_01
+
+[Navy jumpsuit 2]
+Clothing_Torso_1 sc_nvy_bdu_jumpsuit_02_01_01
+Clothing_Torso2 sc_nvy_bdu_engineer_belt_03_01_01
+Clothing_Feet sc_nvy_bdu_boots_01_01_01
+
+[Navy engineer]
+Clothing_Torso_1 sc_nvy_bdu_jumpsuit_02_01_20
+Clothing_Torso2 sc_nvy_bdu_engineer_belt_01_01_20
+Clothing_Feet sc_nvy_bdu_boots_01_01_01
+
+[Navy jumpsuit (carrier)]
+Clothing_Torso_1 sc_nvy_bdu_jumpsuit_01_01_cvx01
+Clothing_Torso2 sc_nvy_bdu_engineer_belt_04_01_01
+Clothing_Feet sc_nvy_bdu_boots_01_01_01
+
+[Medic]
+Clothing_Torso_1 sc_nvy_medical_corpsman_jacket_01_01_01
+Clothing_Legs sc_nvy_medical_corpsman_pants_01_01_01
+Clothing_Feet sc_nvy_medical_corpsman_boots_02_01_01
+
+[Navy fatigues]
+Clothing_Torso_1 sc_nvy_bdu_longsleeve_shirt_01_01_01
+Clothing_Legs sc_nvy_bdu_trouser_01_01_01
+Clothing_Feet sc_nvy_bdu_boots_01_01_01
+
+[Navy training]
+Clothing_Torso_1 sc_nvy_bdu_longsleeve_shirt_01_01_01
+Clothing_Legs sc_nvy_training_pants_01_01_01
+Clothing_Feet sc_fio_shoes_01_01_01
+
+[Navy training shorts]
+Clothing_Torso_1 sc_nvy_bdu_longsleeve_shirt_01_01_01
+Clothing_Legs sc_nvy_training_shorts_01_01_01
+Clothing_Feet sc_fio_shoes_01_01_01

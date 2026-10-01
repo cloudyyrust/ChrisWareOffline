@@ -1,0 +1,18 @@
+<!--
+  Offline player data for the local player "default_1".
+
+  The mod points the game's Libs/OfflineDB lookup at %USER%
+  (LIVE\user\client\0\), and launch_offline.bat copies this file there.
+  Same shape as the game's own Libs/OfflineDB/default.xml, plus ships.
+  <Item class="..."/> takes an entity class name (e.g. AEGS_Gladius).
+-->
+<DB>
+  <aUEC amount="100000000"/>
+  <OfflineItems value="1"/>
+  <Item class="AEGS_Gladius"/>
+  <Item class="AEGS_Avenger_Titan"/>
+  <Item class="ANVL_Hornet_F7C_Mk2"/>
+  <Item class="DRAK_Cutlass_Black"/>
+  <Item class="MISC_Freelancer"/>
+  <Item class="RSI_Constellation_Andromeda"/>
+</DB>

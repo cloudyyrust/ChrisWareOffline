@@ -1,0 +1,37 @@
+# Missions for the Missions menu: "<mission id> <name>" per line. The ids are
+# the Subsumption mission IDs from Data/Libs/Subsumption/Missions (the game's
+# environmental missions, which the online backend normally starts).
+6e25f044-bb1a-4485-b1ca-ca9c311d8c6a Combat assist (service beacon)
+654df1da-26ec-4449-a62c-c6a4cc1749dc Combat assist (NPC asks for help)
+ae6044a5-48ed-46c5-9ccf-4dfd1aec2719 Pirate blockade
+81b6b7d9-0847-4c3f-9d08-5cade3c1d78d Pirate freighter
+97953a13-55d5-4996-907e-9c6606979a62 Pirate scout
+43d7bd2f-3f04-4719-ba9a-bbc099e57cc0 Civilian freighter
+0cc38ea0-1f26-48aa-961d-abd85c67534e Freighter derelict
+4479d59c-8350-4f3b-8e6c-c470737e0b3e Asteroid field
+624b56b8-5b44-49b0-8261-e02b5040c081 Procyon
+58ba3bc6-8e11-45f3-9ce6-5f81774be2ed NT Lockdown blockade
+17f2a53d-2373-4f91-bfca-c1a9cd7aeb85 NT Lockdown derelict
+3d56c28e-4ce5-4a8c-86dd-fbb9641f6cf0 Bounty hunter vs AI
+1037ae5b-380d-4c3b-8325-c3fd2092bf07 Bounty hunters after you (wanted 1)
+079b2698-bdaa-49a0-a70f-6ec7dec95917 Bounty hunters after you (wanted 2)
+e9830644-2806-44d4-89f2-e51f6b9f999a Bounty hunters after you (wanted 3)
+1f1213ad-5316-438a-88f9-89ac13fce526 Bounty hunters after you (wanted 4)
+e3a4b45d-2cd9-42ec-b305-1dc93ecd9247 Bounty hunters after you (wanted 5)
+66e467ed-91b2-4346-8a28-44d30ee88a0f Advocacy after you (wanted 4)
+cd7e60c6-a988-4347-b7d1-cd0cf72a41ab UEE after you (wanted 5)
+d68ab7ec-6968-4753-ac11-b7d6fba04620 Wanted policing (Stanton)
+a660bdcf-8acb-4276-a3d9-4cd85436818b Security patrol (Crusader)
+7308d14e-0ac8-4f0c-a184-25e5186b2f74 Security patrol (Hurston)
+e7e38250-ca08-4ef1-94e6-33a8aaf895d6 Security patrol (microTech)
+bc5ba5c3-fa7d-434a-aaee-776bd653ef3c Security patrol (Navy)
+41da9c91-e8ec-4a30-b005-ff26fd68436d Security patrol (Advocacy)
+5cce86d8-21f6-44de-a4eb-a1a24b73f0bd Security patrol (BlacJac)
+40e04849-5594-43e0-b5a5-027823269cbd Wanted policing (Crusader)
+c15fdd68-31be-4da8-bdb4-c6e98dcca225 Wanted policing (Hurston)
+ea4067b4-053a-4fc2-9b57-d2dfafd59552 Wanted policing (microTech)
+40da9a04-8145-4a51-b38b-655fadad074c Wanted policing (Navy)
+1b2f9a38-325f-4872-bea1-1c02bd633099 Wanted policing (Advocacy)
+52e8a860-ee2d-4d32-b214-0e93528b1407 Wanted policing (BlacJac)
+40d6c196-f73c-5751-dd96-83a39eba9caa Horde (Arena Commander, experimental)
+6bdc7f77-0e70-461c-ad83-2b44cbb40ea5 Swarm (Arena Commander, experimental)
