@@ -60,7 +60,7 @@ If your game is not installed in C:\Program Files\Roberts Space Industries\StarC
 1. Close the RSI Launcher and the game
 2. Double click launch_offline.bat
 3. If it says it can not copy the mod then right click launch_offline.bat and pick Run as administrator
-4. Wait for the game to load you into the universe
+4. Wait for the game to load you in
 5. Press M to open the menu
 
 Leave the black script window open while you play. When you close the game it removes the mod from your game folder.
